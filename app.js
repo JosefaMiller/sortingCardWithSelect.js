@@ -58,6 +58,7 @@ button.addEventListener('click', function () {
     originalCards.push(cardElement.cloneNode(true));
   }
 
+  
   containerElement.innerHTML = '';
 
   generateCards.forEach(function (card) {
